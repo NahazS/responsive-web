@@ -1,0 +1,306 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.btn-primary:hover{
+    background-color: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+h3{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+/* head section............*/
+
+
+header{
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom 25px left;
+}
+
+
+/* nav section ..............................*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav  li{
+    list-style: none;
+    margin-right: 50px;
+}
+.name-logo{
+    color: #181818;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 800;
+}
+.r{
+    color: #FD6E0A;
+}
+.blog{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+/*  banner section ......................*/
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin-top: -47px;
+    padding: 50px 38px 0px 150px;
+    justify-content: space-between;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-greeting{
+    color: #474747;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 600;
+}
+.profile-name{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+.banner p{
+    max-width: 585px;
+}
+
+/* about me section */
+.about-me{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 130px auto 0px auto;
+    padding: auto;
+    border-radius: 10px;
+    background: #FFF8F3;    
+}
+.about{
+    padding: 131px 157px;
+}
+.about p, .details h4{
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.details-info{
+    display: inline;
+    text-align: center;
+}
+
+/* What I do section */
+
+.what-i-do{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 130px auto 0px auto;
+    padding: auto;
+}
+.what-i-do p{
+    text-align: center;
+}
+.skills{
+    display: flex;
+}
+.skill{
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+    margin-right: 24px;
+    padding: 30px 0 0 30px;
+}
+
+.skill p{
+    line-height: 28px;
+    text-align: left;
+}
+
+/* summary */
+
+.summary{
+    max-width: 1140px;
+    margin: 200px auto 0px auto;
+    padding: auto;
+    position: relative;
+}
+.eduexp{
+    display: flex;
+    justify-content: space-between;
+}
+.education h4{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.edu h5{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.edu h6{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.edu p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+#sum-btn{
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* footer section */
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    body{
+        background-color: #FFF8F3 ;
+    }
+    header{
+        text-align: center;
+        background-image: none;
+    }
+    nav, .details , .skills{
+        display: inline;
+    }
+    nav ul{
+        justify-content: space-between;
+    }
+    nav #btn{
+        margin-bottom: 0px;
+    }
+    .banner{
+        display: inline;
+        background-image: none;
+        padding: 50px 38px 0px 10px;
+    }
+    .mary-img{
+        display: none;
+    }
+    .banner-greeting{
+        text-align: center;
+        font-size: 35px;
+    }
+    .profile-name{
+        font-size: 60px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .about-me{
+        max-height: none;
+        margin-top: 20px;
+    }
+    .about{
+        padding: 50px 20px;
+    }
+    
+    .what-i-do{
+        max-height: none;
+    }
+    .skill{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .eduexp{
+        display: inline;
+        text-align: center;
+    }
+    .summary{
+        margin-bottom: 100px;
+    }
+    footer{
+        display: inline;
+        background: none;
+    }
+    .footer-column{
+        width: 100%;
+        text-align: center;
+    }
+    footer input[type="text"],  footer input[type="email"], footer textarea{
+        width: 90%;
+    }
+
+
+}
